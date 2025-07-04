@@ -75,14 +75,6 @@
 
 ---
 
-<h2>🎉 Fun Animations</h2>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="300px">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="300px">
-</div>
-
----
 
 <h2>📬 Let's Connect</h2>
 
