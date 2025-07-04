@@ -1,0 +1,46 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define Gradients -->
+    <defs>
+        <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#111827;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="800" height="200" fill="url(#bg-gradient)" rx="20"/>
+
+    <!-- Animated Particles for a subtle, dynamic feel -->
+    <circle cx="100" cy="50" r="2" fill="#667eea" opacity="0.6">
+        <animate attributeName="cy" values="50;150;50" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="100" r="1.5" fill="#f093fb" opacity="0.4">
+        <animate attributeName="cy" values="100;40;100" dur="6s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="6s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="400" cy="80" r="2.5" fill="#667eea" opacity="0.5">
+        <animate attributeName="cy" values="80;120;80" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+        <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="600" cy="60" r="2" fill="#f093fb" opacity="0.6">
+        <animate attributeName="cy" values="60;140;60" dur="5.5s" repeatCount="indefinite" begin="2s"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="5.5s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="750" cy="120" r="1.5" fill="#667eea" opacity="0.4">
+        <animate attributeName="cy" values="120;50;120" dur="6.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Main Text -->
+    <text x="400" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="url(#text-gradient)">
+        Shivansh Shukla
+    </text>
+    <text x="400" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle" fill="#c9d1d9">
+        Full-Stack Developer & Tech Innovator
+    </text>
+</svg>
